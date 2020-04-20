@@ -1,0 +1,32 @@
+name: FNhub
+version: 1.0
+main: me.lucas.first.Main
+description: FlameNetwork
+author: TYSluukie
+
+commands:
+    help:
+      usage: /<command>
+      description: help
+    ?:
+      usage: /<command>
+      description: help
+    staffteam:
+      usage: /<command>
+      description: zie onze staff
+    stopbroadcast:
+      usage: /<command>
+      description: stop broadcast
+      permission: fnhub.stop
+    startbroadcast:
+      usage: /<command>
+      description: start broadcast
+      permission: fnhub.start
+    lock:
+      usage: /<command>
+      description: lockdown
+      permission: fnhub.lockdown
+      
+permissions:
+  lockdown.bypass:
+    description: bypass lockdown
